@@ -1,0 +1,81 @@
+##########################
+# Visual Studio
+##########################
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## VS Code
+.vscode/
+.history/
+
+## Rider
+.idea/
+*.sln.iml
+
+## ASP.NET specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Entity Framework
+Migrations/
+*.db
+*.sqlite
+*.bak
+
+## Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+*.pfx
+*.key
+
+## npm / frontend
+node_modules/
+dist/
+build/
+
+## Others
+*.log
+*.vspscc
+*.vssscc
+*.tmp
+*.cache
+*.config.user
+*.TestResults.xml
+
+# Publish folder
+publish/
+
+# JetBrains Rider
+.idea/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# DotNet watch
+.watchr
