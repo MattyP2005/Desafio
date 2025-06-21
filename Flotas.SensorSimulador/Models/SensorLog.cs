@@ -1,4 +1,3 @@
-﻿
 namespace Flotas.SensorSimulador.Models
 {
     public class SensorLog

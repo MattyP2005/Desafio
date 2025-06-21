@@ -1,6 +1,6 @@
-# 📘 Informe Técnico - Sistema de Gestión de Flotas y Mantenimiento Predictivo
+#  Informe Técnico - Sistema de Gestión de Flotas y Mantenimiento Predictivo
 
-## 👨‍💻 Autor
+##  Autor
 
 **Nombre:** Matías Pérez  
 **Carrera:** Ingeniería de Software  
@@ -8,13 +8,13 @@
 **Año:** 2025
 **Materia** Herramientas de Programacion
 
-## 🧾 Descripción General
+##  Descripción General
 
 Este proyecto implementa un sistema distribuido que permite gestionar flotas de camiones y predecir mantenimientos futuros mediante sensores simulados. 
 Se desarrolló una solución con arquitectura modular, múltiples motores de base de datos, y componentes orientados a servicios (API RESTful). 
 El sistema incluye exportaciones, alertas, pruebas unitarias, y una interfaz web amigable para usuarios técnicos y operativos.
 
-## 🧱 Estructura del Proyecto
+##  Estructura del Proyecto
 
 La solución completa se divide en 5 proyectos principales, organizados por responsabilidades:
 
@@ -33,7 +33,7 @@ La solución completa se divide en 5 proyectos principales, organizados por resp
 - **Libreria.Test**  
   Proyecto de pruebas unitarias usando xUnit. Valida el comportamiento de entidades clave como Mantenimiento, SensorLog y AlertaMantenimiento.
 
-## 🧩 Entidades del sistema
+##  Entidades del sistema
 
 El sistema está construido sobre 6 entidades principales, cada una representando un componente clave de la gestión de flotas:
 
@@ -55,7 +55,7 @@ El sistema está construido sobre 6 entidades principales, cada una representand
 - **AlertaMantenimiento**  
   Representa una alerta predictiva generada por el sistema cuando un camión supera un umbral crítico. Puede marcarse como crítica o informativa.
 
-## 🛠️ Funcionalidades desarrolladas
+##  Funcionalidades desarrolladas
 
 El sistema cumple con todos los requisitos funcionales planteados en el desafío. Las principales funcionalidades desarrolladas son:
 
@@ -86,7 +86,7 @@ El sistema cumple con todos los requisitos funcionales planteados en el desafío
 - **Separación por capas y principios SOLID**  
   Uso de interfaces, inyección de dependencias, y separación entre lógica de negocio, datos y presentación.
 
-## 🧪 Pruebas Unitarias
+##  Pruebas Unitarias
 
 Se implementaron pruebas básicas usando el framework **xUnit** en el proyecto `Libreria.Test`. Estas pruebas verifican la lógica interna de las entidades más importantes:
 
@@ -94,7 +94,7 @@ Se implementaron pruebas básicas usando el framework **xUnit** en el proyecto `
 - `SensorLogTests`: asegura que los valores generados por el simulador estén dentro de los rangos esperados.
 - `AlertaTests`: comprueba que una alerta crítica sea detectada correctamente.
 
-### 🔧 Ejecución de pruebas
+###  Ejecución de pruebas
 
 Podemos ejecutar las pruebas desde la terminal con:
 
@@ -102,28 +102,28 @@ Podemos ejecutar las pruebas desde la terminal con:
 dotnet test Libreria.Test
 ```
 
-## 🖼️ Evidencias
+##  Evidencias
 
 A continuación se listan los recursos generados como respaldo visual del funcionamiento del sistema:
 
-- 📊 **Diagrama de clases UML**  
+-  **Diagrama de clases UML**  
   Representa las entidades y sus relaciones. Fue generado usando Graphviz y PlantUML.
 
-- 🗃️ **Esquema de base de datos (BDD)**  
+-  **Esquema de base de datos (BDD)**  
   Incluye un archivo `.sql` con la estructura de tablas y una imagen del modelo relacional (PK/FK).
 
-- 🧪 **Capturas de pruebas unitarias**  
+-  **Capturas de pruebas unitarias**  
   Evidencia de pruebas ejecutadas con éxito mediante `dotnet test`.
 
-- 📈 **Dashboard en tiempo real**  
+-  **Dashboard en tiempo real**  
   Interfaz web que muestra las alertas generadas sin recargar la página.
 
-- 📤 **Exportación de alertas a Excel**  
+-  **Exportación de alertas a Excel**  
   Funcionalidad implementada con ClosedXML, genera un archivo `.xlsx` con todas las alertas.
 
 > Todos estos archivos están organizados en la carpeta `/Documentacion` del proyecto.
 
-## 📦 Requisitos Técnicos
+## Requisitos Técnicos
 
 Este sistema fue desarrollado usando las siguientes herramientas, frameworks y tecnologías:
 
@@ -154,7 +154,7 @@ Este sistema fue desarrollado usando las siguientes herramientas, frameworks y t
 - **Python + Graphviz (opcional)**  
   Utilizado para generar el diagrama visual del esquema de base de datos.
 
-## ✅ Estado del Proyecto
+## Estado del Proyecto
 
 A continuación se resumen los principales componentes solicitados en el desafío y su estado de implementación:
 
