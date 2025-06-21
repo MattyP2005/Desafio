@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "..\\Flotas.API\\Flotas.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Flotas.MVC\\Flotas.MVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
